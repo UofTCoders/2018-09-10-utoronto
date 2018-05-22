@@ -14,7 +14,7 @@ instructor: ["Joel Ostblom", "Francis Nguyen", "Lina Tran", "Sara Mahallati"] # 
 helper: ["Madeleine Bonsma-Fisher"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["m.bonsma@mail.utoronto.ca", "uoftcoders@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: http://pad.software-carpentry.org/2018-06-18-utoronto            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite: 12619334291          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -46,10 +46,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
+<!--
 <h4>This is the workshop template. Delete these lines and use it to customize your own website.
 If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
 <a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
+and our administrator may contact you if we need any extra information.</h4> -->
 
 <h2 id="general">General Information</h2>
 
@@ -391,6 +392,7 @@ and our administrator may contact you if we need any extra information.</h4>
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
 
+<!--
 <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatability
            is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
   <h3>Git</h3>
@@ -412,7 +414,6 @@ and our administrator may contact you if we need any extra information.</h4>
     <a href="https://help.github.com/articles/keeping-your-email-address-private/">instructions
     for keeping your email address private</a> provided at GitHub.
   </p>
-
   <div class="row">
     <div class="col-md-4">
       <h4 id="git-windows">Windows</h4>
@@ -446,6 +447,7 @@ and our administrator may contact you if we need any extra information.</h4>
     </div>
   </div>
 </div> {% comment %} End of 'Git' section. {% endcomment %}
+-->
 
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
   <h3>Text Editor</h3>
@@ -612,16 +614,15 @@ and our administrator may contact you if we need any extra information.</h4>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
 
+<!--
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
-
   <p>
     <a href="https://www.r-project.org">R</a> is a programming language
     that is especially powerful for data exploration, visualization, and
     statistical analysis. To interact with R, we use
     <a href="https://www.rstudio.com/">RStudio</a>.
   </p>
-
   <div class="row">
     <div class="col-md-4">
       <h4 id="r-windows">Windows</h4>
@@ -661,17 +662,16 @@ and our administrator may contact you if we need any extra information.</h4>
       </p>
     </div>
   </div>
-</div> {% comment %} End of 'R' section. {% endcomment %}
+</div> {% comment %} End of 'R' section. {% endcomment %} -->
 
+<!--
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
-
   <p>
     SQL is a specialized programming language used with databases.  We
     use a simple database manager called
     <a href="https://www.sqlite.org/">SQLite</a> in our lessons.
   </p>
-
   <div class="row">
     <div class="col-md-4">
       <h4 id="sql-windows">Windows</h4>
@@ -702,13 +702,13 @@ and our administrator may contact you if we need any extra information.</h4>
         SQLite comes pre-installed on Linux.
       </p>
     </div>
-  </div>
-
+  </div> 
   <p><strong>If you installed Anaconda, it also has a copy of SQLite
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
-</div> {% comment %} End of 'SQLite' section. {% endcomment %}
+</div> {% comment %} End of 'SQLite' section. {% endcomment %} -->
 
+<!--
 <div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
   <h3>OpenRefine</h3>
   <p>
@@ -716,7 +716,6 @@ and our administrator may contact you if we need any extra information.</h4>
     web browser. <em>Note:</em> this is a Java program that runs on your machine (not in the cloud).
     It runs inside a web browser, but no web connection is needed.
   </p>
-
   <div class="row">
     <div class="col-md-4">
       <h4 id="openrefine-windows">Windows</h4>
@@ -755,11 +754,11 @@ and our administrator may contact you if we need any extra information.</h4>
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
-
+-->
+<!--
 {% comment %}
 <div id="vm">
   <h3>Virtual Machine</h3>
-
   <p>
     Some instructors prefer to have learners use a virtual machine (VM)
     rather than install software on their own computers.  If your
@@ -780,4 +779,4 @@ and our administrator may contact you if we need any extra information.</h4>
     </li>
   </ol>
 </div>
-{% endcomment %}
+{% endcomment %} -->
