@@ -528,14 +528,13 @@ and our administrator may contact you if we need any extra information.</h4> -->
     <a href="https://python.org">Python</a> is a popular language for
     research computing, and great for general-purpose programming as
     well.  Installing all of its research packages individually can be
-    a bit difficult, so we recommend
+    a bit difficult, so we strongly recommend
     <a href="https://www.anaconda.com/distribution/">Anaconda</a>,
-    an all-in-one installer.
+    an all-in-one installer that includes everything we will be using during the workshop.
   </p>
 
     <p>
-      Regardless of how you choose to install it,
-      <strong>please make sure you install Python version 3.x</strong>
+      <strong>Please make sure you install Python version 3.x</strong>
       (e.g., 3.6 is fine).
     </p>
 
@@ -547,6 +546,12 @@ and our administrator may contact you if we need any extra information.</h4> -->
       <a href="https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility">supported</a>
       (some older browsers, including Internet Explorer version 9
       and below, are not).
+    </p>
+    
+    <p>
+    Once you have installed Python via Anaconda, test that everything's working by launching a Jupyter notebook. 
+    You can do this either by opening the Anaconda Navigator and selecting Jupyter notebook from the menu, or 
+    by opening a terminal or Anaconda prompt, then typing 'jupyter notebook' into the prompt and hitting 'Enter'.
     </p>
 
   <div class="row">
