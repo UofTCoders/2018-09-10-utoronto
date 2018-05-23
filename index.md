@@ -301,15 +301,13 @@ and our administrator may contact you if we need any extra information.</h4> -->
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
-
+<!--
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
-
   <p>
     Bash is a commonly-used shell that gives you the power to do simple
     tasks more quickly.
   </p>
-
   <div class="row">
     <div class="col-md-4">
       <h4 id="shell-windows">Windows</h4>
@@ -391,7 +389,7 @@ and our administrator may contact you if we need any extra information.</h4> -->
     </div>
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
-
+-->
 <!--
 <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatability
            is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
@@ -448,10 +446,9 @@ and our administrator may contact you if we need any extra information.</h4> -->
   </div>
 </div> {% comment %} End of 'Git' section. {% endcomment %}
 -->
-
+<!--
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
   <h3>Text Editor</h3>
-
   <p>
     When you're writing code, it's nice to have a text editor that is
     optimized for writing code, with features like automatic
@@ -461,7 +458,6 @@ and our administrator may contact you if we need any extra information.</h4> -->
     typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q',
     exclamation mark), then hitting Return to return to the shell.
   </p>
-
   <div class="row">
     <div class="col-md-4">
       <h4 id="editor-windows">Windows</h4>
@@ -520,6 +516,7 @@ and our administrator may contact you if we need any extra information.</h4> -->
     </div>
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
+-->
 
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
