@@ -539,7 +539,7 @@ and our administrator may contact you if we need any extra information.</h4> -->
     </p>
 
     <p>
-      We will teach Python using JupyterLab <a href="https://jupyterlab.readthedocs.io/en/latest</a>,
+      We will teach Python using <a href="https://jupyterlab.readthedocs.io/en/latest">JupyterLab</a>,
       a programming environment that runs in a web browser. For this to work you will need a reasonably
       up-to-date browser. The current versions of the Chrome, Safari and
       Firefox browsers are all supported (some older browsers, including Internet Explorer version 9
