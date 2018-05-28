@@ -542,9 +542,7 @@ and our administrator may contact you if we need any extra information.</h4> -->
       We will teach Python using JupyterLab <a href="https://jupyterlab.readthedocs.io/en/latest</a>,
       a programming environment that runs in a web browser. For this to work you will need a reasonably
       up-to-date browser. The current versions of the Chrome, Safari and
-      Firefox browsers are all
-      <a href="https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility">supported</a>
-      (some older browsers, including Internet Explorer version 9
+      Firefox browsers are all supported (some older browsers, including Internet Explorer version 9
       and below, are not).
     </p>
     
