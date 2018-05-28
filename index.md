@@ -539,7 +539,7 @@ and our administrator may contact you if we need any extra information.</h4> -->
     </p>
 
     <p>
-      We will teach Python using the <a href="https://jupyter.org/">Jupyter notebook</a>,
+      We will teach Python using JupyterLab <a href="https://jupyterlab.readthedocs.io/en/latest</a>,
       a programming environment that runs in a web browser. For this to work you will need a reasonably
       up-to-date browser. The current versions of the Chrome, Safari and
       Firefox browsers are all
@@ -549,9 +549,12 @@ and our administrator may contact you if we need any extra information.</h4> -->
     </p>
     
     <p>
-    Once you have installed Python via Anaconda, test that everything's working by launching a Jupyter notebook. 
-    You can do this either by opening the Anaconda Navigator and selecting Jupyter notebook from the menu, or 
-    by opening a terminal or Anaconda prompt, then typing 'jupyter notebook' into the prompt and hitting 'Enter'.
+    Once you have installed Python via Anaconda, test that everything's working
+    by launching JupyterLab. 
+    You can do this either by opening the Anaconda Navigator and selecting
+    JupyterLab from the menu, or 
+    by opening a terminal or the Anaconda prompt, then typing `jupyter-lab` (or
+    `jupyter lab`) into the prompt and hitting <kbd>Enter</kbd>.
     </p>
 
   <div class="row">
