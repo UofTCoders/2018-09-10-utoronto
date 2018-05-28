@@ -548,11 +548,10 @@ and our administrator may contact you if we need any extra information.</h4> -->
     
     <p>
     Once you have installed Python via Anaconda, test that everything's working
-    by launching JupyterLab. 
-    You can do this either by opening the Anaconda Navigator and selecting
-    JupyterLab from the menu, or 
-    by opening a terminal or the Anaconda prompt, then typing `jupyter-lab` (or
-    `jupyter lab`) into the prompt and hitting <kbd>Enter</kbd>.
+    by launching JupyterLab. You can do this either by opening the Anaconda
+    Navigator and selecting JupyterLab from the menu, or by opening a terminal
+    or the Anaconda prompt, then typing `jupyter-lab` (or `jupyter lab`) into
+    the prompt and hitting <kbd>Enter</kbd>.
     </p>
 
   <div class="row">
