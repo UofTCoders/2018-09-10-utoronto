@@ -62,7 +62,7 @@ RMD_DST = $(patsubst _episodes_rmd/%.Rmd,_episodes/%.md,$(RMD_SRC))
 
 # Lesson source files in the order they appear in the navigation menu.
 MARKDOWN_SRC = \
-  index.md \
+  index.html \
   CONDUCT.md \
   setup.md \
   $(sort $(wildcard _episodes/*.md)) \
