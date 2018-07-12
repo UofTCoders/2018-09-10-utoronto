@@ -43,7 +43,7 @@
 
     ```
     1.
-    surveys_hh = surveys.dropna()[['species_id', 'hindfoot_length']]
+    surveys_hh = surveys[['species_id', 'hindfoot_length']].dropna()
     surveys_hh['hindfoot_half'] = surveys_hh['hindfoot_length'] / 2 
     surveys_hh = surveys_hh.loc[surveys_hh['hindfoot_half'] < 30]
     ```
