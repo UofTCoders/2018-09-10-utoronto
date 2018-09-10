@@ -1,4 +1,4 @@
-country,year,population,region,income_group,life_expectancy,co2_emissions
+country,year,population,region,income_group,life_expectancy,co2_per_capita
 Samoa,2011,188000.0,Oceania.Polynesia,Upper middle,71.5,1.07
 samoa,2012,189000.0,Oceania.Polynesia,Upper middle,no value,
 Sammoa,2013,191000.0,Oceania.Polynesia,Upper middle,71.6,
